@@ -6,12 +6,12 @@ public class Temperatura {
 		
 		// (F - 32) 5/9 = C
 		
-		double farenheit = 20;
+		double farenheit = 86;
 		
-		final double numero1 = 5/9.0;
-		final int numero2 = 32;
+		final double FATOR = 5/9.0;
+		final int AJUSTE = 32;
 		
-		double graus = (farenheit - numero2) / numero1;
+		double graus = (farenheit - AJUSTE) * FATOR;
 		
 		System.out.println("A conversão para graus fica" + graus);
 		
