@@ -12,32 +12,23 @@ public class DesafioCalculadora {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro Numero: ");
-		String num1 =  entrada.next();
+		System.out.print("Digite o primeiro Numero: ");
+		double num1 =  entrada.nextDouble();
 		
-		System.out.println("Digite o segundo Numero: ");
-		String num2 =  entrada.next();
+		System.out.print("Digite o segundo Numero: ");
+		double num2 =  entrada.nextDouble();
         
+    System.out.print("Qual será seu tipo de operação? ");
+        String op = entrada.next();
         
-		
-		System.out.println("Qual será seu tipo de operação? ");
-        String operacao = entrada.next();
+          
+        double resultado = "+".equals(op) ? num1+num2 : 0;  
         
-        String soma = 
+        resultado = "-".equals(op) ? num1 - num2 : 0;
+        resultado = "*".equals(op) ? num1 * num2 : resultado;
+        resultado = "/".equals(op) ? num1 / num2 : resultado;
         
-        
-        
-        
-      
-       
-        
-		
-		
-		
-		
-		
-		
-		 
+        System.out.printf("%.2f %s %.2f = %.2f", num1, op, num2, resultado);
 		
 		entrada.close();
 		
