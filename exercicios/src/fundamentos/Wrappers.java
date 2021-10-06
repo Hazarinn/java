@@ -9,7 +9,7 @@ public class Wrappers {
 		// Byte
 		
 		Byte b = 100;
-		Short s = 1000;
+		Short s = 1000; 
 		
 		//Integer.parseInt(entrada.nextLine());
 		Integer i = 10000;  // int

@@ -12,7 +12,7 @@ public class DesafioLogicos {
 		
 		boolean comprouTv50 = trabalho1 && trabalho2;
 		boolean comprouTv32 = trabalho1 ^ trabalho2;
-		boolean comprouSorvete = trabalho1 || trabalho2;
+		boolean comprouSorvete = trabalho1 || trabalho2; 
 		
 		// Operador unário
 		boolean maisSaudavel = !comprouSorvete;
