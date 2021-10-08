@@ -4,20 +4,27 @@ public class DataTeste {
 	
 	public static void main(String[] args) {
 		
-		Data d1 = new Data();
-		d1.dia = 2;
-		d1.mes = 2;
-		d1.ano = 1996;
+		Data d1 = new Data (2, 2, 1996);
 		
 		Data d2 = new Data();
-		d2.dia = 31;
-		d2.mes = 1;
-		d2.ano = 1995;
 		
 		
 		
-		System.out.printf("%d/%d/%d",d1.dia, d1.mes, d1.ano);
-		System.out.printf("%d/%d/%d",d2.dia, d2.mes, d2.ano);
+		//Dessa forma, conseguimos obter a data formatada, utilizando o método criado na classe Data
+		// Armazenei o valor da dataFormatada em uma variavel, para ficar mais fácil de obter o acesso a ela
+		String dataFormatada1 =  d1.obterDataFormatada();
+		String dataFormatada2 =  d2.obterDataFormatada();
+		
+	 System.out.println(dataFormatada1);
+	 System.out.println(dataFormatada2);
+	 
+	 d1.imprimirDataFormatada();
+	 d2.imprimirDataFormatada();
+	 
+	 
+		
+		
+		
 				
 		
 	}
