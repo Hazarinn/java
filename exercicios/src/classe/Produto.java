@@ -9,7 +9,7 @@ public class Produto {
 	// 0.9 90% de desconto
 	String nome;
 	double preco;
-	static double DESCONTO = 0.25;
+	static double desconto = 0.25;
 	
 	 Produto() {
 			
@@ -21,18 +21,18 @@ public class Produto {
 		preco = precoInicial;
 		
 	}
-	
 
 	
-	static double  precoComDesconto () {
+	 double  precoComDesconto () {
 		
 		// como dentro do objeto produto eu tenho tudo o que preciso
 		// não é necessário colocar os parametros por esse motivo
-		
-		
-		
-		return (preco *(1 - DESCONTO));
+		return preco * (1 - desconto);
    }
+	
+	double precoComDesconto(double descontoDoGerente) {
+		return preco * (1 - desconto + descontoDoGerente);
+	}
    
    
 

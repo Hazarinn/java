@@ -4,7 +4,9 @@ public class DataTeste {
 	
 	public static void main(String[] args) {
 		
-		Data d1 = new Data (2, 2, 1996);
+		Data d1 = new Data ();
+		d1.imprimirDataFormatada();
+		d1.ano = 2021;
 		
 		Data d2 = new Data();
 		
