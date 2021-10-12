@@ -24,18 +24,16 @@ public class Produto {
 	
 
 	
-   double precoComDesconto () {
+	static double  precoComDesconto () {
 		
 		// como dentro do objeto produto eu tenho tudo o que preciso
 		// não é necessário colocar os parametros por esse motivo
 		
+		
+		
 		return (preco *(1 - DESCONTO));
    }
    
-   double precoComDesconto (double descontoDoGerente) {
-		
-		return preco *(1 - DESCONTO + descontoDoGerente);
-		
-	} 
+   
 
 }
