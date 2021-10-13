@@ -32,7 +32,7 @@ public class Data {
 		
 		int a;
 		
-		a = 0; // a variáve só pode ser utilizada quando for inicializada
+		a = 0; // a variável só pode ser utilizada quando for inicializada
 		// quando temos uma variável local, obrigatoriamente ela deverá ser inicializada
 		System.out.println(a); // não dará certo porque uma variável local não é inicializada por padrão
 		
