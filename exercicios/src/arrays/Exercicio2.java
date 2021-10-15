@@ -1,5 +1,5 @@
 package arrays;
-import java.util.Arrays;
+
 
 public class Exercicio2 {
 	
