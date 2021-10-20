@@ -32,6 +32,8 @@ public class Fila {
 		// fla.size
 		// fila.clear
 	   // fila.isEmpty
+		// fila.contains
+		
 		
 		// Diferença é o comportamento occore
 		// quando a fila está vazia!
