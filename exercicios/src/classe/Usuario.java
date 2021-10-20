@@ -3,7 +3,7 @@ package classe;
 public class Usuario {
 	
 	String nome;
-	String email;
+	String email; 
 	
 	@Override
 	public boolean equals(Object objeto) {
