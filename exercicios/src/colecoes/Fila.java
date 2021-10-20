@@ -40,7 +40,7 @@ public class Fila {
 		
 		
 		// Pool e Remove -> Obter o próximo elemento da fila e remove
-		System.out.println(fila.poll()); // pegao primeiro elemento da fila já removendo
+		System.out.println(fila.poll()); // pega o primeiro elemento da fila já removendo
 		System.out.println(fila.remove()); // Lança uma exceção
 		System.out.println(fila.poll()); // retorna null
 		System.out.println(fila.poll());
