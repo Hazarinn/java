@@ -1,4 +1,8 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Carro;
+import oo.heranca.desafio.Civic;
+import oo.heranca.desafio.Ferrari;
 
 public class Teste {
 	
@@ -34,6 +38,9 @@ public class Teste {
 		System.out.println(c2);
 		
 		c2.acelerar();
+		System.out.println(c2);
+		
+		c2.ligarTurbo();
 		System.out.println(c2);
 		
 		

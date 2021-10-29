@@ -15,8 +15,8 @@ public class Pedro extends Ana {
 			
 			//System.out.println(esposa.segredo);
 			//System.out.println(mae.facoDentroDeCasa); // só é visivel para quem é do mesmo pacote
-			System.out.println(formaDeFalar);
-			System.out.println(todosSabem);
+			System.out.println(formaDeFalar); // atributos recebidos por herança, por isso pode ser acessados sem instanciação de Ana
+			System.out.println(todosSabem); // atributos recebidos por herança, por isso pode ser acessados sem instanciação de Ana
 			
 		}
 

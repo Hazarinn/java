@@ -7,5 +7,7 @@ public class Ana {
 	String facoDentroDeCasa = "..."; // Default ou pacote
 	protected String formaDeFalar = "...";
 	public String todosSabem = "...";
+	
+	
 
 }
