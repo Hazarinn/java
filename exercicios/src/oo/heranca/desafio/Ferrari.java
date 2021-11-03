@@ -7,7 +7,7 @@ public class Ferrari extends Carro implements Esportivo, Luxo {
 	
 	
 	 public Ferrari() {
-		super(315);
+		this(315);
 	}
 	
 	public Ferrari(int velocidadeMaxima) {

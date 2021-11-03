@@ -14,13 +14,13 @@ public class Pessoa {
 	
 	
 	
-	public String getNome() {
+	public String getNome() { // Getter ==> serve para pegar a variável
 		return nome;
 	}
 
 
 
-	public void setNome(String nome) {
+	public void setNome(String nome) { // setter ==> para alterar a variável
 		this.nome = nome;
 	}
 	
