@@ -32,11 +32,11 @@ public class ChecadaVsNaoChecada {
 	 
 	// Excecao checada ou verificada
    static void geraErro2() throws Exception {
-	   
+	  
 	 
 		throw new Exception("Ocorreu um erro bem legal #02");
 
-	
+		 // throw new Exception quer dizer: lançar nova exceção. 
 		 
 	}
 
